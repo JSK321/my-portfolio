@@ -24,24 +24,20 @@ body {
 h1 {
     color: lightslategrey;
     
-    
-    
 }
 
 .container {
     background-color: white;
-    width: 70vw;
+    width:70vw;
     padding:50px;
     margin: 100px 20px;
-    float: left;
+    
 }
 
 .images {
     border: 1px solid red;
     margin-top: 20px;
     margin-bottom: 20px;
-    float: left;
-   
 
 }
 
@@ -69,16 +65,18 @@ footer {
 
 @media screen and (max-width: 768px){
     .container{
-        float:none;
-        width:70vw;
+        /* background-color: salmon; */
+        width: 100vw;
         margin: 100px 20px;
     }
+
+    
 }
 
 @media screen and (max-width: 400px){
     .container{
-        float:none;
-        width:100%;
+        /* background-color: cornflowerblue; */
+        width:100vw;
         margin: 100px 20px;
        
     }
