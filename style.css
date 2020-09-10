@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-image: url("https://i.pinimg.com/originals/19/fc/21/19fc21dc1f8a339ea8f302c75320a28f.jpg");
     padding-bottom: 50px;
@@ -30,7 +36,7 @@ h1 {
     background-color: white;
     width:70vw;
     padding:50px;
-    margin: 100px 20px;
+    margin: 100px auto;
     
 }
 
@@ -59,7 +65,7 @@ footer {
 
 @media screen and (max-width: 768px){
     .container{
-        margin: 100px 20px;
+        margin: 50px auto;
     }
     
     
@@ -68,7 +74,7 @@ footer {
 @media screen and (max-width: 400px){
     .container{
         width:100vw;
-        margin: 100px 20px;
+        margin: 50px auto;
        
     }
 }
