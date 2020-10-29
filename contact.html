@@ -21,7 +21,7 @@
         <section class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -34,48 +34,33 @@
     </nav>
 
     <article class="container">
-        <figure class="row">
-            <figcaption class="col-md-12">
-                <h1>Contact</h1>
-                <hr>
-                <figure class="row">
-                    <figcation class="col-md-10">
-                        <form>
-                            <div class="form-group">
-                             <label for="exampleInputName1">Name</label>
-                            <input type="name" class="form-control" id="exampleInputName1"  placeholder="Name">
-                            </div>
+        <h1>Contact</h1>
+        <hr>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName">Name</label>
+                    <input type="name" class="form-control" id="inputName" placeholder="Name">
+                </div>
 
-                            <div class="form-group">
-                            <label for="exampleInputEmail1">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                            </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+                <div class="form-group">
+                    <label for="formControlTextarea">Message</label>
+                    <textarea class="form-control" id="formControlTextarea" rows="3" placeholder="Message"></textarea>
+                </div>
 
-                            <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-                            </div>
-                        
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-
-                    </figcaption>
-                </figure>
-               
-            </figcaption>
-        </figure>
-    
-       
-    
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-dark contact">Submit</button>
+                </div>
+          
+        </form>
     </article>
 
-   
-
-   <footer>&copy Copyright</footer>
-
-
-  
-
+    <footer>&copy Copyright</footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
